@@ -1,0 +1,53 @@
+/* PANEL STYLE */
+
+.panelContent { padding: 20px 0px 20px 0px; }
+.panelContent .panelLogin .loginBox { background-color: #000000; border: 1px solid #ffffff; font-size: 16px; padding: 3px; color: #ffffff; } 
+.panelContent .contentTitle { margin-top: 0px; font-size: 22px; font-weight: normal; color: #f5a84e; }
+.panelContent .contentSubtitle { margin-top: 0px; font-size: 16px; font-weight: normal; color: #f5a84e; }
+.panelContent .titleBar { background-color: #f5a84e; padding: 6px; font-size: 16px; font-weight: normal; color: #000000; }
+.panelContentInner { padding-left: 20px; }
+.panelMenu { background-color: #d9b3b3; padding: 7px; text-align: center; color: #000000; }
+.panelMenu a { font-size: 11px; font-weight: bold; text-decoration: none; color: #940000 !important; }
+.panelMenu .menuSpace { margin: 0px 5px 0px 5px; }
+
+p.panelAlert { margin-bottom: 15px; background-color: #efcaca; border: 1px solid #b61a1a; padding: 7px; font-size: 12px; font-weight: bold; color: #b61a1a; }
+p.greenAlert { margin-bottom: 15px; background-color: #ccefcc; border: 1px solid #008800; padding: 7px; font-size: 12px; font-weight: bold; color: #008800; }
+p.panelAlert a, p.greenAlert a { font-weight: normal; text-decoration: none; }
+
+.listTable .listHeader { background-color: #411c1c; font-size: 12px; font-weight: bold; color: #ffffff; }
+.listTable .listEmpty { background-color: transparent; border: 1px solid #411c1c; padding: 25px; font-style: italic; color: #ffffff; }
+.listTable .listOne { background-color: #222222; color: #ffffff; }
+.listTable .listTwo { background-color: #222222; color: #ffffff; }
+.listTable .listOne a, .listTable .listTwo a { display: block; font-size: 11px; text-decoration: none; color: #ffffff; }
+.listTable .listOne a.eLink, .listTable .listTwo a.eLink { display: block; background-color: #518ad6; border: 2px outset #518ad6; padding: 1px; text-align: center; text-decoration: none; font-size: 11px; font-weight: bold; text-transform: uppercase; color: #ffffff; }
+.listTable .listOne a.dLink, .listTable .listTwo a.dLink { display: block; background-color: #7d0300; border: 2px outset #7d0300; padding: 1px; text-align: center; text-decoration: none; font-size: 11px; font-weight: bold; text-transform: uppercase; color: #ffffff; }
+.listTable .listOne a.exLink, .listTable .listTwo a.exLink { display: block; background-color: #f27538; border: 2px outset #f27538; padding: 1px; text-align: center; text-decoration: none; font-size: 11px; font-weight: bold; text-transform: uppercase; color: #ffffff; }
+.listTable .listBottom { background-color: #411c1c; }
+.listTable .catSelect { padding: 2px; font-size: 11px; }
+.listTable .catSelect option { font-size: 11px; }
+
+table.panelForm td { background-color: #222222; color: #ffffff; }
+.panelForm td.formTitle { font-weight: bold; }
+.panelForm td.formField .tinyBox { background-color: #000000; border: 1px solid #ffffff; padding: 2px; width: 100px; color: #ffffff; }
+.panelForm td.formField .smallBox { background-color: #000000; border: 1px solid #ffffff; padding: 2px; width: 300px; color: #ffffff; }
+.panelForm td.formField .medBox { background-color: #000000; border: 1px solid #ffffff; padding: 2px; width: 550px; color: #ffffff; }
+.panelForm td.formField .longBox { background-color: #000000; border: 1px solid #ffffff; padding: 2px; width: 750px; color: #ffffff; }
+.panelForm td.formField .medTextbox { background-color: #000000; border: 1px solid #ffffff; padding: 2px; width: 550px; height: 100px; color: #ffffff; }
+.panelForm td.formField .longTextbox { background-color: #000000; border: 1px solid #ffffff; padding: 2px; width: 750px; height: 100px; color: #ffffff; }
+.panelForm td.formField .longTextboxTall { background-color: #000000; border: 1px solid #ffffff; padding: 2px; width: 750px; height: 200px; color: #ffffff; }
+.panelForm td.formField .contentTextbox { background-color: #000000; border: 1px solid #ffffff; padding: 2px; width: 910px; height: 350px; color: #ffffff; }
+.panelForm td.formField .genDrop { background-color: #000000; border: 1px solid #ffffff; padding: 2px; color: #ffffff; }
+.panelForm td.formField .smallDrop { background-color: #000000; border: 1px solid #ffffff; padding: 2px; width: 350px; color: #ffffff; }
+.panelForm td.formField .medDrop { background-color: #000000; border: 1px solid #ffffff; padding: 2px; width: 550px; color: #ffffff; }
+.panelForm td.formField .longDrop { background-color: #000000; border: 1px solid #ffffff; padding: 2px; width: 750px; color: #ffffff; }
+.panelForm td.formField select option { border: 0px; }
+input.panelButton { background-color: #518ad6; border: 2px outset #518ad6; margin-top: 15px; padding: 3px 8px 3px 8px; text-align: center; text-decoration: none; font-weight: bold; color: #ffffff; }
+a.panelButton { display: block; background-color: #518ad6; border: 2px outset #518ad6; margin-top: 15px; padding: 4px 8px 4px 8px; text-align: center; text-decoration: none; font-weight: bold; width: 180px; color: #ffffff; }
+
+select.sortDrop { padding: 2px; border: 1px solid #000000; }
+a.addButton { display: block; background-color: #348200; border: 2px outset #348200; padding: 3px 8px 3px 8px; text-align: center; text-decoration: none; font-weight: bold; width: 180px; color: #ffffff; }
+a.delButton { display: block; background-color: #d03131; border: 2px outset #d03131; padding: 3px 8px 3px 8px; text-align: center; text-decoration: none; font-weight: bold; width: 180px; color: #ffffff; }
+a.blueButton { display: block; background-color: #518ad6; border: 2px outset #518ad6; padding: 3px 8px 3px 8px; text-align: center; text-decoration: none; font-weight: bold; width: 180px; color: #ffffff; }
+
+.panelDeleteForm td .deleteButton { padding: 3px 24px 3px 24px; margin-right: 15px; background-color: #cccccc; border: 2px outset #cccccc; text-decoration: none; color: #000000; }
+.panelDeleteForm td .deleteButton:hover { padding: 3px 24px 3px 24px; margin-right: 15px; background-color: #ff7682; border: 2px outset #ff7682; text-decoration: none; color: #000000; }

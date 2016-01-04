@@ -1,0 +1,120 @@
+body { margin: 0px; padding: 0px; background-color: #000000; background-image: url(../images/page_bg.jpg); background-position: top center; background-repeat: no-repeat; background-attachment: fixed; }
+
+body, html, div, span, p, table, tr, td { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #ffffff; }
+input, select, option, textarea { background-color: #000000; border: 1px solid #000000; font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #ffffff; }
+
+a, a:link, a:active, a:visited, a:hover { color: #f5a84e; }
+
+.headerOuter .social a, .headerOuter .social div { display: inline-block; }
+.headerOuter .search .searchForm { margin: 0px; padding: 0px; }
+.headerOuter .search .searchBox { background-color: #000000; margin-top: 20px; border: 1px solid #aaaaaa; font-size: 14px; padding: 5px; color: #aaaaaa; }
+.headerOuter .search .searchButton { border: 0px; padding: 0px 0px 3px 3px; }
+
+.navOuter { background-image: url(../images/red_bg.jpg); background-position: top center; background-repeat: no-repeat; }
+.navOuter table td a { display: inline-block; padding: 0px 28px 0px 28px; font-size: 16px; text-decoration: none; text-transform: uppercase; color: #f5a84e; }
+
+.contentInner { padding: 20px 0px 20px 0px; }
+.contentInner .contentTitle { margin-top: 0px; font-size: 20px; font-weight: normal; color: #ffffff; }
+.contentInner .contentSubtitle { margin-top: 0px; font-size: 14px; font-weight: bold; color: #ffffff; }
+.contentInner .contentBar { padding: 8px; background-color: #582525; background-image: url(../images/red_bg.jpg); background-position: top right; background-repeat: no-repeat; font-size: 15px; font-weight: bold; text-transform: uppercase; color: #ffffff; }
+
+.footerOuter { background-image: url(../images/red_bg.jpg); background-position: top center; background-repeat: no-repeat; }
+.footerInner { padding: 20px 0px 20px 0px; }
+.footerInner .footerNav a { display: inline-block; padding: 0px 25px 0px 0px; font-size: 16px; font-weight: normal; text-decoration: none; text-transform: uppercase; color: #ed952c; }
+.footerInner .footerCopy { padding-top: 30px; font-size: 14px; color: #ffffff; }
+
+/* PAGE SPECIFIC STYLES */
+
+.readAll { margin-top: 20px; border-top: 1px dashed #aaaaaa; padding: 8px 0px 8px 0px; }
+.readAll a { font-size: 14px; font-weight: bold; color: #f6a23f; }
+
+.homeEvents { margin-top: 20px; }
+.homeEvents .eventMonth { font-size: 18px; font-weight: normal; color: #ffffff; }
+.homeEvents .eventDate { font-size: 30px; font-weight: normal; color: #ffffff; }
+.homeEvents .eventTitle { font-size: 18px; font-weight: normal; color: #f6a23f; }
+.homeEvents .eventTime { margin-top: 20px; font-size: 14px; font-weight: bold; text-transform: uppercase; color: #ffffff; }
+.homeEvents .eventLocation { font-size: 14px; font-weight: bold; text-transform: uppercase; color: #ffffff; }
+.homeEvents .eventTime span, .homeEvents .eventLocation span { font-size: 14px; font-weight: normal; font-style: italic; color: #d68a8a; }
+.homeEvents .eventDesc { margin-top: 20px; font-size: 13px; font-weight: normal; color: #ffffff; }
+
+.itemCell { width: 225px; }
+.itemCell .itemLink { text-align: center; text-decoration: none; }
+.itemCell .itemLink .itemTitle { margin-top: 20px; font-size: 18px; font-weight: bold; color: #ffffff; }
+.itemCell .itemLink .itemPrice { font-size: 18px; font-weight: normal; color: #d68a8a; }
+.itemCell .itemLink .itemSub { font-size: 12px; font-weight: normal; color: #f6a23f; }
+
+.productOuter .prodMainImage a img { border: 2px solid #bbbbbb; }
+.productOuter .addImages a { display: inline-block; padding: 15px 10px 0px 0px; }
+.productOuter .addImages a img { border: 2px solid #bbbbbb; }
+.productOuter .productTitle { font-size: 26px; font-weight: normal; color: #ffffff; }
+.productOuter .productDescSub { margin-top: 15px; font-size: 14px; font-style: italic; color: #d68a8a; }
+.productOuter .productDescLong { margin-top: 15px; margin-bottom: 30px; font-size: 14px; color: #cccccc; }
+.productOuter .productOldPrice { margin-bottom: 2px; font-size: 12px; text-decoration: line-through; color: #777777; }
+.productOuter .productPrice { margin-bottom: 30px; font-size: 22px; color: #f6a23f; }
+.productOuter .productOptions { font-size: 16px; color: #aaaaaa; }
+.productOuter .productOptions .pTitle { margin: 10px 0px 5px 0px; font-size: 14px; font-weight: bold; color: #ffffff; }
+.productOuter .productOptions select { border: 1px solid #aaaaaa; padding: 3px; font-size: 16px; color: #cccccc; }
+.productOuter .productOptions select option { border: 0px; padding: 3px; font-size: 16px; color: #cccccc; }
+.productOuter .productButton { background-color: #a61327; border: 2px outset #a61327; margin-top: 15px; padding: 3px 8px 3px 8px; font-size: 14px; text-align: center; text-decoration: none; font-weight: bold; color: #ffffff; }
+
+.listTable { margin-top: 20px; }
+.listTable .listTitle { font-size: 16px; color: #ffffff; }
+.listTable .listDesc { margin: 8px 0px 8px 0px; font-size: 12px; font-weight: normal; color: #d68a8a; }
+.listTable .listLink { font-size: 14px; font-weight: bold; color: #f6a23f; }
+
+.mediaPage .listImage { padding: 0px 0px 20px 20px; }
+.mediaPage .listTitle { font-size: 24px; color: #d68a8a; }
+.mediaPage .listContent { margin: 20px 0px 20px 0px; font-size: 14px; font-weight: normal; color: #ffffff; }
+.mediaPage .listLink { font-size: 14px; font-weight: bold; color: #ffffff; }
+.mediaPage .linkLink a { color: #d68a8a !important; }
+.mediaPage .backLink { margin-top: 20px; }
+
+.eventTable .eventMonth { font-size: 30px; font-weight: normal; color: #ffffff; }
+.eventTable .eventDate { font-size: 45px; font-weight: normal; color: #ffffff; }
+.eventTable .eventTitle { font-size: 30px; font-weight: normal; color: #f6a23f; }
+.eventTable .eventTime { margin-top: 20px; font-size: 16px; font-weight: bold; text-transform: uppercase; color: #ffffff; }
+.eventTable .eventLocation { font-size: 16px; font-weight: bold; text-transform: uppercase; color: #ffffff; }
+.eventTable .eventTime span, .eventTable .eventLocation span { font-size: 16px; font-weight: normal; font-style: italic; color: #d68a8a; }
+.eventTable .eventDesc { margin-top: 20px; font-size: 14px; font-weight: normal; color: #ffffff; }
+.eventTable .eventLink { margin-top: 20px; }
+.eventTable .eventLink a { font-size: 18px; font-weight: normal; text-decoration: none; color: #f6a23f; }
+.eventTable .eventLink a img { margin-right: 15px; }
+
+.friendTable { margin-top: 30px; }
+.friendTitle a { font-size: 24px; font-weight: normal; text-decoration: none; color: #f5a84e; }
+.friendDesc a { font-size: 15px; font-weight: normal; font-style: italic; text-decoration: none; color: #ffffff; }
+.friendLink a { font-size: 13px; font-weight: bold; text-decoration: none; color: #d68a8a; }
+.friendDesc, .friendLink { margin-top: 10px; }
+
+.searchResults { margin-top: 20px; border-top: 1px dashed #aaaaaa; padding-top: 20px; }
+.searchResults .itemTitle { font-size: 16px; text-decoration: none; color: #ffffff; }
+.searchResults .itemDescSub { margin-top: 8px; font-size: 12px; font-style: italic; color: #d68a8a; }
+.searchResults .itemDescLong { margin: 8px 0px 8px 0px; font-size: 14px; color: #cccccc; }
+.searchResults .itemOldPrice { margin-top: 8px; font-size: 12px; text-decoration: line-through; color: #777777; }
+.searchResults .itemPrice { margin-top: 2px; font-size: 14px; font-weight: bold; color: #f6a23f; }
+.searchResults .itemLink a { display: block; margin-top: 8px; font-size: 13px; font-weight: bold; text-decoration: none; color: #ffffff; }
+
+/* FORM STYLE */
+
+.contactForm { padding: 0px; margin: 0px; }
+.contactForm .formTitle { font-weight: bold; color: #f5a84e; }
+.contactForm .tinyBox { background-color: #000000; padding: 3px; border: 1px solid #ffffff; width: 60px; color: #ffffff; }
+.contactForm .smallBox { background-color: #000000; padding: 3px; border: 1px solid #ffffff; width: 120px; color: #ffffff; }
+.contactForm .medBox { background-color: #000000; padding: 3px; border: 1px solid #ffffff; width: 280px; color: #ffffff; }
+.contactForm .longBox { background-color: #000000; padding: 3px; border: 1px solid #ffffff; width: 480px; color: #ffffff; }
+.contactForm .longestBox { background-color: #000000; padding: 3px; border: 1px solid #ffffff; width: 590px; color: #ffffff; }
+.contactForm .smallTextbox { background-color: #000000; padding: 3px; border: 1px solid #ffffff; width: 120px; height: 60px; color: #ffffff; }
+.contactForm .medTextbox { background-color: #000000; padding: 3px; border: 1px solid #ffffff; width: 480px; height: 80px; color: #ffffff; }
+.contactForm .longTextbox { background-color: #000000; padding: 3px; border: 1px solid #ffffff; width: 590px; height: 100px; color: #ffffff; }
+.contactForm select { background-color: #000000; padding: 3px; border: 1px solid #ffffff; width: 300px; color: #ffffff; }
+.contactForm select.smallDrop { background-color: #000000; padding: 3px; border: 1px solid #ffffff; width: 80px; color: #ffffff; }
+.contactForm select.longDrop { background-color: #000000; padding: 3px; border: 1px solid #ffffff; width: 590px; color: #ffffff; }
+.contactForm select option { padding: 0px; }
+input.formButton { background-color: #555555; border: 2px outset #555555; margin-top: 15px; padding: 3px 8px 3px 8px; text-align: center; text-decoration: none; font-weight: bold; color: #ffffff; }
+
+/* PAGINATION STYLE */
+
+.resultPages { margin-top: 40px; background-color: #222222; border-top: 1px dashed #aaaaaa; padding: 1px; }
+.resultPages .pageNumbers { font-size: 13px; font-weight: normal; color: #ffffff; }
+.resultPages a { display: inline; padding: 2px 6px 2px 6px; background-color: #222222; border: 1px solid #ffffff; font-size: 14px; font-weight: bold; text-decoration: none; color: #ffffff; }
+.resultPages .curPage { display: inline; padding: 2px 6px 2px 6px; background-color: #411c1c; font-size: 14px; font-weight: bold; color: #ffffff; }
